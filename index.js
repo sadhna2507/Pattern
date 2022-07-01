@@ -1,36 +1,3 @@
-// let num = 3;
-// let px = num;
-// let py = num;
-// for(let i = 1; i<3; i++){
-//   stars = ``
-//   for(let j = 1; j<=3*2; j++){
-//     if(j==px||j==py){
-//        stars += "  * "
-//     }else stars +="    "
-   
-//   }px++
-//   py--
-//   console.log(stars)
-// }
-
-
-// px = 1;
-// py = num*2-1;
-// for(let i = 1; i<=3; i++){
-//   stars = ``
-//   for(let j = 1; j<=3*2; j++){
-//     if(j==px||j==py){
-//        stars += "  * "
-//     }else stars +="    "
-   
-//   }px++
-//   py--
-//   console.log(stars)
-// }
-
-
-
-
 // let num = 5;
 
 // for(let i = 1; i<=5; i++){
@@ -60,3 +27,39 @@
 // }
 
 
+// let a=0;
+// let b=1;
+
+// for(i=a;i<=5;i++){
+//     let star="";
+//     for(j=1;j<=i;j++){ 
+       
+//         let c=a+b 
+//         star+=` ${a}` 
+//         a=b;
+//         b=c
+      
+//     }
+//     console.log(star);
+// }
+
+
+
+for(let i=3;i>=1;i--){
+    let star= '';
+    for(j=1;j<=3;j++){
+
+    
+    star =star + '';
+  
+}
+let k=i;
+for(m=1;m<=i;m++){
+    star= star+k++;
+}
+k=k-2;
+for(let m=1;m<=i;m++){
+    star= star+k--;
+}
+console.log(star);
+}
